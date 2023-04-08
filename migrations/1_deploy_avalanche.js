@@ -1,4 +1,4 @@
-const Avalanche = artifacts.require('Avalance');
+const Avalanche = artifacts.require('Avalanche');
 
 module.exports = function(deployer) {
     deployer.deploy(Avalanche);
