@@ -2,11 +2,11 @@
 pragma solidity ^0.8.1;
 
 
-import "./IERC20.sol";
+import "./ERC20.sol";
 
 
 
-contract Famton is IERC20 {
+contract Famton is ERC20 {
     string public name = "Famton";
     string public symbol = "FTM";
     uint8 public decimals = 18;

@@ -2,11 +2,11 @@
 pragma solidity ^0.8.1;
 
 
-import "./IERC20.sol";
+import "./ERC20.sol";
 
 
 
-contract USDC is IERC20 {
+contract USDC is ERC20 {
     string public name = "USD Coin";
     string public symbol = "USDC";
     uint8 public decimals = 18;

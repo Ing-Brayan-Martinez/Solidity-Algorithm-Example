@@ -2,11 +2,11 @@
 pragma solidity ^0.8.1;
 
 
-import "./IERC20.sol";
+import "./ERC20.sol";
 
 
 
-contract Avalance is IERC20 {
+contract Avalance is ERC20 {
     string public name = "Avalanche Token";
     string public symbol = "AVAX";
     uint8 public decimals = 18;
